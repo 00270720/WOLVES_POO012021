@@ -21,6 +21,7 @@ namespace GitHubWork
         {
 
             return a * b;
+
         }
 
     }
