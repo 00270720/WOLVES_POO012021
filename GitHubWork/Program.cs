@@ -14,13 +14,13 @@ namespace GitHubWork
              Console.WriteLine("Ingrese un valor para b: ");
             b = Int32.Parse(Console.ReadLine());
 
-            Console.WriteLine($"La suma de {a} + {b} es igual a {Addnumbers(a,b) }");
+            Console.WriteLine($"La multiplicación de {a} x {b} es igual a {Multiplynumbers(a,b) }");
         }
 
-        public static int Addnumbers(int a, int b)
+        public static int Multiplynumbers(int a, int b)
         {
 
-            return a + b;
+            return a * b;
         }
 
     }
